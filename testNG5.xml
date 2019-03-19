@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- this xml file used for parameterizing url -->
+<suite name="AnandSuit" verbose="1" >
+	<test name="Regression1">
+<parameter name="url" value="http://www.facebook.com"></parameter>
+<parameter name="url2" value="http://www.yahoo.com"></parameter>
+		<classes>
+			<class name="com.testngDemo.ParameterDemo4" />
+			
+
+
+
+		</classes>
+	</test>
+</suite>

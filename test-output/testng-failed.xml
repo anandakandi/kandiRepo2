@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AnandSuit]">
+  <test thread-count="5" name="Regression1(failed)">
+    <parameter name="url2" value="http://www.yahoo.com"/>
+    <parameter name="url" value="http://www.facebook.com"/>
+    <classes>
+      <class name="com.testngDemo.ParameterDemo4">
+        <methods>
+          <include name="test2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testngDemo.ParameterDemo4 -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [AnandSuit] -->

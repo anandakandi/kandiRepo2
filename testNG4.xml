@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- this xml file used for parallel test execution in class level -->
+<suite name="AnandSuit" verbose="1" thread-count="3" parallel="classes">
+	<test name="Regression1">
+
+		<classes>
+			<class name="com.testngDemo.ParallelDemo2" />
+			<class name="com.testngDemo.ParallelDemo3" />
+
+
+
+		</classes>
+	</test>
+</suite>
